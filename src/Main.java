@@ -40,8 +40,13 @@ public class Main {
 
         //Vylepsena kalkulacka
         Scanner mujScanner = new Scanner(System.in);
+        System.out.println("Zadej prvni cislo:");
+        int prvniCislo = mujScanner.nextInt();
+        System.out.println("Zadej druhe cislo:");
+        int druheCislo = mujScanner.nextInt();
 
-
+        System.out.println(prvniCislo + druheCislo);
+        System.out.println(prvniCislo / druheCislo);
 
     }
 }
