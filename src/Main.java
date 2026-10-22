@@ -28,7 +28,8 @@ public class Main {
 
         boolean pravdaNepravda = false;
 
-        double desCislo1 = 0.1;
+        //Konstanta
+        final double desCislo1 = 0.1;
         double desCislo2 = 0.2;
 
         System.out.println(desCislo1 + desCislo2);
