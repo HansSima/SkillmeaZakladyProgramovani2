@@ -63,5 +63,16 @@ public class Main {
 
         System.out.println(--prvCislo);*/
 
+        //Podminky a vetveni
+        Scanner mujScanner = new Scanner(System.in);
+        System.out.println("Zadej vek:");
+        int vek = mujScanner.nextInt();
+
+        if(vek >= 18){
+            System.out.println("Uzivatel je dospely");
+        }
+
+
+
     }
 }
