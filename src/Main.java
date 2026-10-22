@@ -56,10 +56,12 @@ public class Main {
         /*String textoveCislo = "5";
         int prevedeneCislo = Integer.parseInt(textoveCislo);*/
 
+        /*
         //Matematicke operace
         int prvCislo = 17;
-        int druCislo = 5;
-        System.out.println(17 % 5);
+        int druCislo = 17;
+
+        System.out.println(--prvCislo);*/
 
     }
 }
