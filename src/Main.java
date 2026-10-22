@@ -3,15 +3,28 @@
 public class Main {
     public static void main(String[] args) {
 
+        /*
         //Toto je promenna
         String pozdrav = "Ahoj svete";
+        String jmeno = " od Honzy";
+        jmeno = " od Jana";
 
         //Toto mi vypise do konzole Hello World
+        System.out.println(pozdrav + jmeno);
         System.out.println(pozdrav);
         System.out.println(pozdrav);
         System.out.println(pozdrav);
         System.out.println(pozdrav);
-        System.out.println(pozdrav);
+        */
+
+        //Kalkulacka
+        int prvniCislo = 20;
+        int druheCislo = 5;
+
+        System.out.println(prvniCislo + druheCislo);
+        System.out.println(prvniCislo - druheCislo);
+        System.out.println(prvniCislo * druheCislo);
+        System.out.println(prvniCislo / druheCislo);
 
 
     }
