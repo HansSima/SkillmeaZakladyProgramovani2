@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -17,6 +19,7 @@ public class Main {
         System.out.println(pozdrav);
         */
 
+        /*
         //Kalkulacka
         int prvniCislo = 20;
         int druheCislo = 5;
@@ -33,6 +36,12 @@ public class Main {
         double desCislo2 = 0.2;
 
         System.out.println(desCislo1 + desCislo2);
+        */
+
+        //Vylepsena kalkulacka
+        Scanner mujScanner = new Scanner(System.in);
+
+
 
     }
 }
