@@ -131,26 +131,18 @@ public class Main {
 
         switch(cisloDne){
             case 1:
-                System.out.println("Je pondeli");
-            break;
             case 2:
-                System.out.println("Je utery");
-            break;
             case 3:
-                System.out.println("Je streda");
-            break;
             case 4:
-                System.out.println("Je ctvrtek");
-            break;
             case 5:
-                System.out.println("Je patek");
+                System.out.println("Je pracovni den");
             break;
             case 6:
-                System.out.println("Je sobota");
-            break;
             case 7:
-                System.out.println("Je nedele");
+                System.out.println("Je vikend");
             break;
+            default:
+                System.out.println("Toto neni cislo dne");
         }
 
 
