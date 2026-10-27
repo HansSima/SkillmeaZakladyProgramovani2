@@ -93,6 +93,19 @@ public class Main {
         System.out.println("Zadej hmotnost v kilogramech:");
         hmotnost = mujScanner.nextFloat();
 
+        bmi = hmotnost / (vyska * vyska);
+
+        if(bmi < 18.5f){
+            System.out.println("Uzivatel ma podvahu");
+        }
+        else if(bmi >= 18.5f && bmi < 25f){
+            System.out.println("Uzivatel ma normalni hmotnost");
+        }
+        else if(bmi >= 25f){
+            System.out.println("Uzivatel ma nadvahu");
+        }
+
+
 
     }
 }
