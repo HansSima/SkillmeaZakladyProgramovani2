@@ -146,8 +146,24 @@ public class Main {
         }*/
 
         //Pole
+        /*int[] znamky = new int[5];
+        znamky[0] = 3;
+        znamky[1] = 5;
+        znamky[2] = 1;
+        znamky[3] = 4;
+        znamky[4] = 1;
 
+        //int[] znamky2 = new int[] {3, 5, 1, 4, 1};
 
+        System.out.println(znamky[0]);*/
+
+        /*String[] jmenaStudentu = new String[] {"Honza", "Lenka", "Petra", "Petr", "Jolana"};
+        System.out.println(jmenaStudentu[4]);*/
+
+        /*int[][] viceDimPole = new int[2][2];
+        viceDimPole[0][0] = 83;*/
+
+        System.out.println("Ahoj svete");
 
     }
 }
