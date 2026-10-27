@@ -163,7 +163,17 @@ public class Main {
         /*int[][] viceDimPole = new int[2][2];
         viceDimPole[0][0] = 83;*/
 
-        System.out.println("Ahoj svete");
+        //Smycka
+        /*for(int i = 0; i < 8; i++) {
+            System.out.println(i + ". Ahoj svete");
+        }*/
+
+        String[] jmenaStudentu = new String[] {"Honza", "Lenka", "Petra", "Petr"};
+
+        for(int i = 0; i < jmenaStudentu.length; i++) {
+            System.out.println(jmenaStudentu[i]);
+        }
+
 
     }
 }
