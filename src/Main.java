@@ -122,5 +122,12 @@ public class Main {
             System.out.println("Cislo je liche, prohravas");
         }*/
 
+        //switch - Vyber dne
+        Scanner mujScanner = new Scanner(System.in);
+        int cisloDne;
+
+        System.out.println("Zadej cislo dne:");
+        cisloDne = mujScanner.nextInt();
+
     }
 }
