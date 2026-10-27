@@ -64,7 +64,7 @@ public class Main {
         System.out.println(--prvCislo);*/
 
         //Podminky a vetveni
-        Scanner mujScanner = new Scanner(System.in);
+        /*Scanner mujScanner = new Scanner(System.in);
         System.out.println("Zadej vek:");
         int vek = mujScanner.nextInt();
 
@@ -79,7 +79,19 @@ public class Main {
         }
         else {
             System.out.println("Nelze zadat zaporne cislo");
-        }
+        }*/
+
+        //Vypocet BMI
+        float vyska;
+        float hmotnost;
+        float bmi;
+        Scanner mujScanner = new Scanner(System.in);
+
+        System.out.println("Zadej vysku v metrech:");
+        vyska = mujScanner.nextFloat();
+
+        System.out.println("Zadej hmotnost v kilogramech:");
+        hmotnost = mujScanner.nextFloat();
 
 
     }
