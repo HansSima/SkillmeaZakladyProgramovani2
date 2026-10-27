@@ -123,7 +123,7 @@ public class Main {
         }*/
 
         //switch - Vyber dne
-        Scanner mujScanner = new Scanner(System.in);
+        /*Scanner mujScanner = new Scanner(System.in);
         int cisloDne;
 
         System.out.println("Zadej cislo dne:");
@@ -143,7 +143,10 @@ public class Main {
             break;
             default:
                 System.out.println("Toto neni cislo dne");
-        }
+        }*/
+
+        //Pole
+
 
 
     }
