@@ -74,10 +74,12 @@ public class Main {
         else if(vek >= 65){
             System.out.println("Uzivatel je senior");
         }
-        else if(vek < 18){
+        else if(vek < 18 && vek >= 0){
             System.out.println("Uzivatel je nezletily");
         }
-
+        else {
+            System.out.println("Nelze zadat zaporne cislo");
+        }
 
 
     }
