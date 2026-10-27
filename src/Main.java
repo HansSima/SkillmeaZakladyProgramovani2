@@ -111,7 +111,7 @@ public class Main {
         }*/
 
         //Hod kostkou suda vyhravas, licha prohravas
-        Random nahodnyGenerator = new Random();
+        /*Random nahodnyGenerator = new Random();
         int hodKostkou;
         hodKostkou = nahodnyGenerator.nextInt(1, 7);
         System.out.println("Hozene cislo: " + hodKostkou);
@@ -120,7 +120,7 @@ public class Main {
             System.out.println("Cislo je sude, vyhravas");
         } else {
             System.out.println("Cislo je liche, prohravas");
-        }
+        }*/
 
     }
 }
