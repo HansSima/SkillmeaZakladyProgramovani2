@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -82,9 +83,9 @@ public class Main {
         }*/
 
         //Vypocet BMI
-        float vyska;
+        /*float vyska;
         float hmotnost;
-        float bmi;
+        float bmi = -1;
         Scanner mujScanner = new Scanner(System.in);
 
         System.out.println("Zadej vysku v metrech:");
@@ -107,9 +108,19 @@ public class Main {
         }
         else {
             System.out.println("Nelze zadat zapornou hmotnost");
+        }*/
+
+        //Hod kostkou suda vyhravas, licha prohravas
+        Random nahodnyGenerator = new Random();
+        int hodKostkou;
+        hodKostkou = nahodnyGenerator.nextInt(1, 7);
+        System.out.println("Hozene cislo: " + hodKostkou);
+
+        if(hodKostkou % 2 == 0){
+            System.out.println("Cislo je sude, vyhravas");
+        } else {
+            System.out.println("Cislo je liche, prohravas");
         }
-
-
 
     }
 }
