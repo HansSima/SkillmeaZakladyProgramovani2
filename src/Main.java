@@ -218,6 +218,13 @@ public class Main {
             skoreHrace = skoreHrace + tazenakarta;
             System.out.println("Skore hrace je: " + skoreHrace);
 
+            if(skoreHrace > 21){
+                System.out.println("Prohral jsi, prekrocil jsi 21");
+                break;
+            }
+
+
+
 
         } while(false);
 
