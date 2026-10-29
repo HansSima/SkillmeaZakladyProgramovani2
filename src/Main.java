@@ -237,9 +237,14 @@ public class Main {
                 }
                 break;
             }
-
-
         } while(true);
+
+        System.out.println("Skore hrace: " + skoreHrace);
+        System.out.println("Skore krupiera: " + skoreKrupiera);
+
+        if((skoreHrace > skoreKrupiera && skoreHrace <= 21) || skoreKrupiera > 21 ) {
+
+        }
 
 
     }
