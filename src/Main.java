@@ -212,6 +212,12 @@ public class Main {
         Random nahGen = new Random();
         Scanner mujScanner = new Scanner(System.in);
 
+        do{
+
+
+
+        } while();
+
 
     }
 }
