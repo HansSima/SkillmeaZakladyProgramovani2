@@ -243,7 +243,11 @@ public class Main {
         System.out.println("Skore krupiera: " + skoreKrupiera);
 
         if((skoreHrace > skoreKrupiera && skoreHrace <= 21) || skoreKrupiera > 21 ) {
-
+            System.out.println("Vyhral jsi");
+        }else if(skoreHrace == skoreKrupiera){
+            System.out.println("Je to remiza");
+        }else {
+            System.out.println("Prohral jsi");
         }
 
 
