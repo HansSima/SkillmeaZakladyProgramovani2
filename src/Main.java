@@ -190,23 +190,22 @@ public class Main {
         }*/
 
         //while
-        int ridiciPromenna = 0;
+        //int ridiciPromenna = 0;
 
-        while(true){
+        /*while(true){
             System.out.println(ridiciPromenna);
             ridiciPromenna++;
             if(ridiciPromenna == 5){
                 break;
             }
-        }
+        }*/
 
-        do {
+        /*do {
             System.out.println(ridiciPromenna);
-            ridiciPromenna++;
-            if(ridiciPromenna == 5){
-                break;
-            }
-        } while(true);
+        } while(ridiciPromenna != 0);*/
+
+        //Blackjack
+
 
 
     }
