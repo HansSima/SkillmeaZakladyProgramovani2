@@ -223,7 +223,13 @@ public class Main {
                 break;
             }
 
+            System.out.println("Pro dalsi kartu stiskni y");
+            System.out.println("Pokud nechces dalsi kartu stiskni n");
+            uzivatelskyVstup = mujScanner.nextLine();
 
+            if(uzivatelskyVstup.equals("y")){
+
+            }
 
 
         } while(false);
