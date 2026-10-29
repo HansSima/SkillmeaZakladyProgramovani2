@@ -213,10 +213,13 @@ public class Main {
         Scanner mujScanner = new Scanner(System.in);
 
         do{
+            tazenakarta = nahGen.nextInt(1, 14);
+            System.out.println("Tazena karta byla: " + tazenakarta);
+            skoreHrace = skoreHrace + tazenakarta;
+            System.out.println("Skore hrace je: " + skoreHrace);
 
 
-
-        } while();
+        } while(false);
 
 
     }
