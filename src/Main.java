@@ -205,7 +205,12 @@ public class Main {
         } while(ridiciPromenna != 0);*/
 
         //Blackjack
-
+        int skoreHrace = 0;
+        int skoreKrupiera = 0;
+        int tazenakarta = 0;
+        String uzivatelskyVstup;
+        Random nahGen = new Random();
+        Scanner mujScanner = new Scanner(System.in);
 
 
     }
