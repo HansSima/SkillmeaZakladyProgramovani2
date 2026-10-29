@@ -228,7 +228,14 @@ public class Main {
             uzivatelskyVstup = mujScanner.nextLine();
 
             if(uzivatelskyVstup.equals("y")){
-
+                continue;
+            }
+            else if(uzivatelskyVstup.equals("n")){
+                while(skoreKrupiera < skoreHrace){
+                    tazenakarta = nahGen.nextInt(1, 14);
+                    skoreKrupiera = skoreKrupiera + tazenakarta;
+                }
+                break;
             }
 
 
