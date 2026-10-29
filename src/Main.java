@@ -168,11 +168,45 @@ public class Main {
             System.out.println(i + ". Ahoj svete");
         }*/
 
-        String[] jmenaStudentu = new String[] {"Honza", "Lenka", "Petra", "Petr"};
+        /*String[] jmenaStudentu = new String[] {"Honza", "Lenka", "Petra", "Petr"};
 
         for(int i = 0; i < jmenaStudentu.length; i++) {
             System.out.println(jmenaStudentu[i]);
         }
+
+        for(String jmeno: jmenaStudentu){
+            System.out.println(jmeno);
+        }*/
+
+        /*int[] nasobky = new int[10];
+
+        //Naplnim pole
+        for(int i = 0; i < 10; i++){
+            nasobky[i] = i * 10;
+        }
+        //Vypisu pole
+        for(int jedenNasobek: nasobky){
+            System.out.println(jedenNasobek);
+        }*/
+
+        //while
+        int ridiciPromenna = 0;
+
+        while(true){
+            System.out.println(ridiciPromenna);
+            ridiciPromenna++;
+            if(ridiciPromenna == 5){
+                break;
+            }
+        }
+
+        do {
+            System.out.println(ridiciPromenna);
+            ridiciPromenna++;
+            if(ridiciPromenna == 5){
+                break;
+            }
+        } while(true);
 
 
     }
